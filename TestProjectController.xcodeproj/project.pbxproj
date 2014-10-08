@@ -13,6 +13,8 @@
 		EB30275F19E3334200F84F91 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB30275E19E3334200F84F91 /* Images.xcassets */; };
 		EB30276219E3334200F84F91 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB30276019E3334200F84F91 /* LaunchScreen.xib */; };
 		EB30276E19E3334200F84F91 /* TestProjectControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB30276D19E3334200F84F91 /* TestProjectControllerTests.swift */; };
+		EB30277819E3337300F84F91 /* CMProjectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB30277719E3337300F84F91 /* CMProjectController.swift */; };
+		EB498B0519E5BF6F0096CA0A /* Nantucket Island Grove.mov in Resources */ = {isa = PBXBuildFile; fileRef = EB498B0419E5BF6F0096CA0A /* Nantucket Island Grove.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		EB30276719E3334200F84F91 /* TestProjectControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB30276C19E3334200F84F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB30276D19E3334200F84F91 /* TestProjectControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectControllerTests.swift; sourceTree = "<group>"; };
+		EB30277719E3337300F84F91 /* CMProjectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMProjectController.swift; sourceTree = "<group>"; };
+		EB498B0419E5BF6F0096CA0A /* Nantucket Island Grove.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = "Nantucket Island Grove.mov"; path = "../../VideoBenchSampleVideos/Nantucket Island Grove.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				EB30275719E3334200F84F91 /* AppDelegate.swift */,
 				EB30275919E3334200F84F91 /* ViewController.swift */,
+				EB30277719E3337300F84F91 /* CMProjectController.swift */,
 				EB30275B19E3334200F84F91 /* Main.storyboard */,
 				EB30275E19E3334200F84F91 /* Images.xcassets */,
 				EB30276019E3334200F84F91 /* LaunchScreen.xib */,
@@ -90,6 +95,7 @@
 		EB30275519E3334200F84F91 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB498B0419E5BF6F0096CA0A /* Nantucket Island Grove.mov */,
 				EB30275619E3334200F84F91 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB30275D19E3334200F84F91 /* Main.storyboard in Resources */,
+				EB498B0519E5BF6F0096CA0A /* Nantucket Island Grove.mov in Resources */,
 				EB30276219E3334200F84F91 /* LaunchScreen.xib in Resources */,
 				EB30275F19E3334200F84F91 /* Images.xcassets in Resources */,
 			);
@@ -214,6 +221,7 @@
 			files = (
 				EB30275A19E3334200F84F91 /* ViewController.swift in Sources */,
 				EB30275819E3334200F84F91 /* AppDelegate.swift in Sources */,
+				EB30277819E3337300F84F91 /* CMProjectController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +415,7 @@
 				EB30277319E3334200F84F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB30277419E3334200F84F91 /* Build configuration list for PBXNativeTarget "TestProjectControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				EB30277619E3334200F84F91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
