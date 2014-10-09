@@ -94,9 +94,12 @@ class CMProjectController {
                 var anError: NSError?
                 var aRange = CMTimeRangeMake(kCMTimeZero, anAsset.duration)
                 var anInsertTime = aComposition.duration
+                
+                //TODO: Will need to add support in case any of those tracks are empty.
+                
                 var aClipVideoTrack = anAsset.tracksWithMediaType(AVMediaTypeVideo)[0] as AVAssetTrack
                 var aClipAudioTrack = anAsset.tracksWithMediaType(AVMediaTypeAudio)[0] as AVAssetTrack
-
+                
                 var a_result = aVideoCompositionTrack.insertTimeRange(aRange, ofTrack:aClipVideoTrack, atTime: anInsertTime, error: &anError)
                 
                 a_result = anAudioCompositionTrack.insertTimeRange(aRange, ofTrack:aClipAudioTrack, atTime: anInsertTime, error: &anError)
