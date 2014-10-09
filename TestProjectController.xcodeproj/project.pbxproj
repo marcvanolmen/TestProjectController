@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB0E0EBF19E7074E00B7EEBE /* video_1080p.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EB0E0EBE19E706E100B7EEBE /* video_1080p.mp4 */; };
+		EB0E0EC119E71C8800B7EEBE /* video_720p.mov in Resources */ = {isa = PBXBuildFile; fileRef = EB0E0EC019E71C8800B7EEBE /* video_720p.mov */; };
 		EB30275819E3334200F84F91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB30275719E3334200F84F91 /* AppDelegate.swift */; };
 		EB30275A19E3334200F84F91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB30275919E3334200F84F91 /* ViewController.swift */; };
 		EB30275D19E3334200F84F91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB30275B19E3334200F84F91 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB0E0EBE19E706E100B7EEBE /* video_1080p.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = video_1080p.mp4; path = ../../VideoBenchSampleVideos/video_1080p.mp4; sourceTree = "<group>"; };
+		EB0E0EC019E71C8800B7EEBE /* video_720p.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = video_720p.mov; path = ../../VideoBenchSampleVideos/video_720p.mov; sourceTree = "<group>"; };
 		EB30275219E3334200F84F91 /* TestProjectController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProjectController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB30275619E3334200F84F91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB30275719E3334200F84F91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				EB498B0419E5BF6F0096CA0A /* Nantucket Island Grove.mov */,
+				EB0E0EC019E71C8800B7EEBE /* video_720p.mov */,
+				EB0E0EBE19E706E100B7EEBE /* video_1080p.mp4 */,
 				EB30275619E3334200F84F91 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -199,7 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB30275D19E3334200F84F91 /* Main.storyboard in Resources */,
+				EB0E0EBF19E7074E00B7EEBE /* video_1080p.mp4 in Resources */,
 				EB498B0519E5BF6F0096CA0A /* Nantucket Island Grove.mov in Resources */,
+				EB0E0EC119E71C8800B7EEBE /* video_720p.mov in Resources */,
 				EB30276219E3334200F84F91 /* LaunchScreen.xib in Resources */,
 				EB30275F19E3334200F84F91 /* Images.xcassets in Resources */,
 			);

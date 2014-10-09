@@ -36,10 +36,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        var anURL = getURLForEmbeddedMovie("Nantucket Island Grove.mov")
-        self.projectController.appendClipWithURL(anURL)
-        anURL = getURLForEmbeddedMovie("Nantucket Island Grove.mov")
-        self.projectController.appendClipWithURL(anURL)
+        var aClip = CMClip(url: getURLForEmbeddedMovie("Nantucket Island Grove.mov"))
+        self.projectController.appendClip(aClip)
+        aClip = CMClip(url: getURLForEmbeddedMovie("video_1080p.mp4"))
+        self.projectController.appendClip(aClip)
         
         var anAVPlayerItem = AVPlayerItem(asset: self.projectController.asset)
         
