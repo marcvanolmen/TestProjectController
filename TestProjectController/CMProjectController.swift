@@ -109,6 +109,8 @@ class CMProjectController {
         }
     }
 
+    
+    
     /*!
     @method			printTrackDescription:
     @abstract		This will print out all the tracks information.
@@ -123,7 +125,8 @@ class CMProjectController {
             
             println("TrackType: \(anAVMutableCompositionTracks.mediaType) size: \(anAVMutableCompositionTracks.naturalSize)")
         }
-}
+    }
+    
     
 
 
